@@ -37,6 +37,8 @@ function App() {
       }} 
       />
 
+	//Example event codes to test: '2019ncwak_f1m1', '2022cmptx_f1m1'
+
     <button onClick={getInformation}>Get Information</button>
     <h1 style={{ margin: '0', padding: '0', lineHeight: '2' }}> {eventCode}</h1>
     <p style={{ margin: '0', padding: '0', lineHeight: '2'}}>
